@@ -71,7 +71,7 @@ namespace App1
 
         static CloudBlobContainer GetContainer()
         {
-            var account = CloudStorageAccount.Parse("<Aquii tu cadena de conexion>");
+            var account = CloudStorageAccount.Parse("<Aqui tu cadena de conexion>");
             var client = account.CreateCloudBlobClient();
             return client.GetContainerReference("logs");
         }
