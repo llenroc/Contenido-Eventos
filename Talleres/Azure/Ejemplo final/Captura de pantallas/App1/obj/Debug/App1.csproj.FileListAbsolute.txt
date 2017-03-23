@@ -1,0 +1,250 @@
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.pdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.App1.apk
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.App1-Signed.apk
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\App1.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\App1.pdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\bin\App1.App1.apk
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\res\layout\main.xml
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\res\values\strings.xml
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\res\drawable\icon.png
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\R.cs.flag
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\uploadflags.txt
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Java.Interop.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Mono.Android.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\mscorlib.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.ComponentModel.Composition.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Core.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Net.Http.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Runtime.Serialization.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.ServiceModel.Internals.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Xml.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Xml.Linq.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\App1.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\Java.Interop.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\Mono.Android.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\mscorlib.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.Core.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.Net.Http.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.Xml.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.Data.Edm.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.Data.OData.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Newtonsoft.Json.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Spatial.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.Data.Edm.xml
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.Data.OData.xml
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Newtonsoft.Json.xml
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.Spatial.xml
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\de\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\es\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\fr\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\it\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ja\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ko\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ru\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Microsoft.CSharp.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Mono.CSharp.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\bin\Debug\System.IO.Compression.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\Microsoft.WindowsAzure.Storage.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\android\assets\System.IO.Compression.dll.mdb
+c:\users\amine\documents\visual studio 2015\Projects\App1\App1\obj\Debug\App1.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\App1.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\App1.pdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\App1.App1.apk
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\App1.App1-Signed.apk
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Spatial.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Spatial.xml
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\App1.dll
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\App1.pdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\bin\App1.App1.apk
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\res\layout\main.xml
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\res\values\strings.xml
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\res\drawable\icon.png
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\R.cs.flag
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\uploadflags.txt
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\App1.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\mscorlib.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Core.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.IO.Compression.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Xml.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\App1.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\Microsoft.WindowsAzure.Storage.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.IO.Compression.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\amine\Documents\Visual Studio 2015\Projects\Captura de pantallas\App1\obj\Debug\App1.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\App1.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\App1.pdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\App1.App1.apk
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\App1.App1-Signed.apk
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Spatial.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Spatial.xml
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\App1.dll
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\App1.pdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\bin\App1.App1.apk
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\res\layout\main.xml
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\res\values\strings.xml
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\res\drawable\icon.png
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\R.cs.flag
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\uploadflags.txt
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\App1.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\mscorlib.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Core.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.IO.Compression.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Xml.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\App1.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\Microsoft.WindowsAzure.Storage.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.IO.Compression.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\obj\Debug\App1.dll.mdb
+C:\Users\amine\Documents\GitHub\Contenido-Eventos\Talleres\Azure\Ejemplo final\Captura de pantallas\App1\bin\Debug\App1.dll.mdb
