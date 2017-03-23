@@ -71,7 +71,7 @@ namespace App1
 
         static CloudBlobContainer GetContainer()
         {
-            var account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=almacenamientoamin;AccountKey=IwInXhDYTglyn48hTTh2b3SSdtOqhx0kMV8OX1he1yfAsP260qMdJY3tvn8A9wPO0+4ZEnU5M7BdUuJ7zk/V5A==;EndpointSuffix=core.windows.net");
+            var account = CloudStorageAccount.Parse("<Aquii tu cadena de conexion>");
             var client = account.CreateCloudBlobClient();
             return client.GetContainerReference("logs");
         }

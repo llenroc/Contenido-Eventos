@@ -20,6 +20,8 @@ Una vez lista la aplicación, entra a la opción de **Access keys** y copia la p
 
 Ya tienes todo tu entorno de Azure listo, quizá valdría la pena que descargues e instales el [Azure Storage Explorer](https://storageexplorer.com/) como opción adicional, de cualquier manera, en el taller lo revisaremos por medio del portal.
 
+Antes de terminar, crea un nuevo contenedor con el nombre que tú quieras dentro de esta cuenta.
+
 ## Tu aplicación Xamarin
 
 Crea una aplicación en blanco de Android basada en Xamarin desde Visual Studio con el nombre que quieras.
@@ -56,6 +58,30 @@ Por último, en el manejador de eventos del temporizador, podrás enviar la info
 
 Hasta aquí, podrás probar con la aplicación que las cadenas de texto estan cambiando constantemente. Remarca el hecho de que el cambio de los valores sucede en un hilo aparte, por lo que debes hacer uso del método **RunOnUIThread** para que las cosas se desplieguen en la interfaz de la aplicación.
 
-2.
+2. Para la segunda parte de funcionalidad, debes agregar primero en el método de OnCreate la instancia del botón y un manejador de eventos.
+
+<img src="imagenes/img11.JPG"/>
+
+Dentro de este manejador de eventos, podrás aregar la funcionalidad de caputra de pantalla de la aplicación, ojo, solo puedes capturar la pantalla de tu aplicación, no de toda la pantalla.
+
+<img src="imagenes/img12.JPG"/>
+
+Ya que tienes el arreglo de bytes listo, ya puedes irte a tu storage. Para lograrlo, vamos a la última funcionalidad.
+
+3. En la parte final, solo debes agregar primero en la funcionalidad anterior del botón la intención de subir tu nuevo arreglo de bytes a Azure.
+
+<img src="imagenes/img13.JPG"/>
+
+Dentro de la nueva funcionalidad agregada, puedes notar que estás usando un método para acceder al contenedor de tu cuenta de blob. Este método es el siguiente dentro de la aplicación. Considera agregar el nombre del contenedor que creaste en el primer paso.
+
+<img src="imagenes/img14.JPG"/>
+
+Y listo, lo único que necesitas es compilar de nuevo la aplicación y después de esto, podrás ver que te aparece un mensaje de **Captura hecha** que indica que ya tu imagen está en tu blob storage.
+
+Para confirmar que ya tienes tu imagen lista aquí, debes regresar a tu portal de Azure e ir a tu cuenta de almacenamiento, en la sección de blobs, podrás ir viendo cada una de todas las capturas de pantalla que has hecho en tu ejercicio.
+
+<img src="imagenes/img15.JPG"/>
 
 ## Resumen
+
+Como puedes ver, es sumamente fácil subir nueva información a Azure, específicamente al blob sotrage. La verdad es que los SDK hacen todo el trabajo y aunque aumentan el peso de la aplicación el costo es muy bajo comparado con el hecho de hacerlo todo de forma manual, el incremento de todo el SDK de blob storage es de aproximadamente 3 MB.
