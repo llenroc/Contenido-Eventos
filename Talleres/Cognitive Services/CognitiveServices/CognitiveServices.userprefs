@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{5ACD0042-CF2A-4EC7-8992-5CD84976ACD0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CognitiveServices.Android/MVPAdapter.cs">
+    <Files>
+      <File FileName="CognitiveServices.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="CognitiveServices.Android/MainApplication.cs" Line="1" Column="1" />
+      <File FileName="CognitiveServices.Android/MVPAdapter.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CognitiveServices.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9D1DB6F5-9EF0-48E2-BC35-4661AE46975E" />
+</Properties>
