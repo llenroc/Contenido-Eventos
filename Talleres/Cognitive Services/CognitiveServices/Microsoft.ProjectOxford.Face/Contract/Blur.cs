@@ -31,35 +31,55 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
-    /// The class for similar face.
+    /// Definition of blur level
     /// </summary>
-    public class SimilarFace
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum BlurLevel
+    {
+        /// <summary>
+        /// Low blur level indicating a clear face image
+        /// </summary>
+        Low,
+
+        /// <summary>
+        /// Medium blur level indicating a slightly blurry face image
+        /// </summary>
+        Medium,
+
+        /// <summary>
+        /// High blur level indicating a extremely blurry face image
+        /// </summary>
+        High
+    }
+
+    /// <summary>
+    /// Face Blur class contains blur information
+    /// </summary>
+    public class Blur
     {
         #region Properties
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// Indicating the blur level of face image
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        public BlurLevel BlurLevel
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Blur value is in range [0, 1]. Larger value means the face image is more blurry.
+        /// [0, 0.25) is low blur level.
+        /// [0.25, 0.75) is medium blur level.
+        /// [0.75, 1] is high blur level.
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
-        public double Confidence
+        public double Value
         {
             get; set;
         }

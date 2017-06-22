@@ -71,7 +71,7 @@ namespace CognitiveServices.Android
 						if (result == null)
 							return;
 						AndHUD.Shared.Show(_city.Context, "Adding Face");
-						var face = await Service.Instance.AddFace(result.GetStream(), Service.Instance.People[Position]);
+                        var face = await Service.Instance.AddFace(result.GetStream(), Service.Instance.People[AdapterPosition]);
 						if (!face)
 						{
 							AndHUD.Shared.Dismiss(_city.Context);

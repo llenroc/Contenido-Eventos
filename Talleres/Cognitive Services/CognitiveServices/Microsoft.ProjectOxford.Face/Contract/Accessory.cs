@@ -31,34 +31,51 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
-    /// The class for similar face.
+    /// Accessory type
     /// </summary>
-    public class SimilarFace
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum AccessoryType
+    {
+        /// <summary>
+        /// Headwear
+        /// </summary>
+        Headwear,
+
+        /// <summary>
+        /// Glasses
+        /// </summary>
+        Glasses,
+
+        /// <summary>
+        /// Mask
+        /// </summary>
+        Mask
+    }
+
+    /// <summary>
+    /// Face accessory class contains accessory information
+    /// </summary>
+    public class Accessory
     {
         #region Properties
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// Indicating the accessory type
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        public AccessoryType Type
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Indicating the confidence for accessory type
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
         public double Confidence
         {
             get; set;

@@ -5,7 +5,7 @@
 // Microsoft Cognitive Services (formerly Project Oxford): https://www.microsoft.com/cognitive-services
 //
 // Microsoft Cognitive Services (formerly Project Oxford) GitHub:
-// https://github.com/Microsoft/ProjectOxford-ClientSDK
+// https://github.com/Microsoft/Cognitive-Face-Windows
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
@@ -37,9 +37,9 @@ using System.Resources;
 [assembly: AssemblyDescription("Microsoft.ProjectOxford.Face")]
 [assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("Microsoft ProjectOxford")]
-[assembly: AssemblyCopyright("Copyright © 2015 Microsoft")]
+[assembly: AssemblyCopyright("Copyright © 2016 Microsoft")]
 [assembly: AssemblyTrademark("Microsoft")]
 [assembly: NeutralResourcesLanguage("en")]
 
-[assembly: AssemblyVersion("1.1.0.0")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.3.0")]
+[assembly: AssemblyFileVersion("1.3.0")]

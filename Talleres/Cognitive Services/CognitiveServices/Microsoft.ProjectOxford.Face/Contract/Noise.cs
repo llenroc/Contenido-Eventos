@@ -31,35 +31,55 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
-    /// The class for similar face.
+    /// Definition of noise level
     /// </summary>
-    public class SimilarFace
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum NoiseLevel
+    {
+        /// <summary>
+        /// Low noise level indicating a clear face image
+        /// </summary>
+        Low,
+
+        /// <summary>
+        /// Medium noise level indicating a slightly noisy face image
+        /// </summary>
+        Medium,
+
+        /// <summary>
+        /// High noise level indicating a extremely noisy face image
+        /// </summary>
+        High
+    }
+
+    /// <summary>
+    /// Face Noise class contains noise information
+    /// </summary>
+    public class Noise
     {
         #region Properties
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// Indicating noise level of face image
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        public NoiseLevel NoiseLevel
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Noise value is in range [0, 1]. Larger value means the face image is more noisy.
+        /// [0, 0.3) is low noise level.
+        /// [0.3, 0.7) is medium noise level.
+        /// [0.7, 1] is high noise level. 
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
-        public double Confidence
+        public double Value
         {
             get; set;
         }

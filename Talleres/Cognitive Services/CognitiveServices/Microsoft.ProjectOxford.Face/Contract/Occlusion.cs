@@ -31,35 +31,35 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
     /// <summary>
-    /// The class for similar face.
+    /// Face Occlusion class contains occlusion information
     /// </summary>
-    public class SimilarFace
+    public class Occlusion
     {
         #region Properties
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// Indicating whether forehead is occluded or not
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        public bool ForeheadOccluded
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Indicating whether eye is occluded or not
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
-        public double Confidence
+        public bool EyeOccluded
+        {
+            get; set;
+        }
+
+        /// <summary>
+        /// Indicating whether mouth is occluded or not
+        /// </summary>
+        public bool MouthOccluded
         {
             get; set;
         }

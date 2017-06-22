@@ -5,7 +5,7 @@
 // Microsoft Cognitive Services (formerly Project Oxford): https://www.microsoft.com/cognitive-services
 //
 // Microsoft Cognitive Services (formerly Project Oxford) GitHub:
-// https://github.com/Microsoft/ProjectOxford-ClientSDK
+// https://github.com/Microsoft/Cognitive-Face-Windows
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
@@ -31,8 +31,6 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-using System.Net;
 using System.Runtime.Serialization;
 
 namespace Microsoft.ProjectOxford.Face.Contract

@@ -14,7 +14,7 @@ namespace CognitiveServices
 
 		public Service()
 		{
-			FaceServiceClient = new FaceServiceClient("d5a0498b3ee44d79ac91028723e0a1a9");
+            FaceServiceClient = new FaceServiceClient("47570485d565413e96565bc622a70077", "https://westcentralus.api.cognitive.microsoft.com/face/v1.0");
 			_personGroupId = Guid.NewGuid().ToString();
 		}
 
@@ -22,7 +22,7 @@ namespace CognitiveServices
 		{
 			new Person{
 				Name = "Alejandro Ruiz",
-				PhotoUrl = "https://scontent.fgdl4-1.fna.fbcdn.net/v/t1.0-9/12592451_1082742655104204_5022196324063214989_n.jpg?oh=87e5fb9fc13b227c55530a24e35550d5&oe=58FF1BD2",
+				PhotoUrl = "http://alejandroruizvarela.com/alex.jpg",
 				City = "Guadalajara"
 			},
 			new Person{

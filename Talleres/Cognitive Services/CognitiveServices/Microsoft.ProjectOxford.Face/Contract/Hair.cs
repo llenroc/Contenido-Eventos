@@ -31,35 +31,107 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
-    /// The class for similar face.
+    /// Hair color type
     /// </summary>
-    public class SimilarFace
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum HairColorType
     {
-        #region Properties
+        /// <summary>
+        /// unknown
+        /// </summary>
+        Unknown,
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// White
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        White,
+
+        /// <summary>
+        /// Gray
+        /// </summary>
+        Gray,
+
+        /// <summary>
+        /// Blond
+        /// </summary>
+        Blond,
+
+        /// <summary>
+        /// Brown
+        /// </summary>
+        Brown,
+
+        /// <summary>
+        /// Red
+        /// </summary>
+        Red,
+
+        /// <summary>
+        /// Black
+        /// </summary>
+        Black,
+
+        /// <summary>
+        /// Other
+        /// </summary>
+        Other
+    }
+
+    /// <summary>
+    /// Face HiarColor class contains hair color information
+    /// </summary>
+    public class HairColor
+    {
+        /// <summary>
+        /// Indicating the hair color type
+        /// </summary>
+        public HairColorType Color
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Indicating the confidence for hair color type
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
         public double Confidence
+        {
+            get; set;
+        }
+    }
+
+    /// <summary>
+    /// Face Hair class contains hair information
+    /// </summary>
+    public class Hair
+    {
+        #region Properties
+
+        /// <summary>
+        /// Indicating the confidence of a bald head
+        /// </summary>
+        public double Bald
+        {
+            get; set;
+        }
+
+        /// <summary>
+        /// Indicating whether hair is occluded or not
+        /// </summary>
+        public bool Invisible
+        {
+            get; set;
+        }
+
+        /// <summary>
+        /// Indicating all possible hair colors with confidences
+        /// </summary>
+        public HairColor[] HairColor
         {
             get; set;
         }

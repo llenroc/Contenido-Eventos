@@ -5,7 +5,7 @@
 // Microsoft Cognitive Services (formerly Project Oxford): https://www.microsoft.com/cognitive-services
 //
 // Microsoft Cognitive Services (formerly Project Oxford) GitHub:
-// https://github.com/Microsoft/ProjectOxford-ClientSDK
+// https://github.com/Microsoft/Cognitive-Face-Windows
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
@@ -33,15 +33,14 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-
 using Microsoft.ProjectOxford.Face.Contract;
-
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
@@ -57,7 +56,7 @@ namespace Microsoft.ProjectOxford.Face
         /// <summary>
         /// The default service host.
         /// </summary>
-        private const string SERVICE_HOST = "https://westus.api.cognitive.microsoft.com/face/v1.0";
+        private const string DEFAULT_API_ROOT = "https://westus.api.cognitive.microsoft.com/face/v1.0";
 
         /// <summary>
         /// The JSON content type header.
@@ -147,7 +146,12 @@ namespace Microsoft.ProjectOxford.Face
         /// <summary>
         /// The subscription key.
         /// </summary>
-        private string _subscriptionKey;
+        private readonly string _subscriptionKey;
+
+        /// <summary>
+        /// The root URI for the service endpoint.
+        /// </summary>
+        private readonly string _apiRoot;
 
         /// <summary>
         /// The HTTP client
@@ -162,9 +166,17 @@ namespace Microsoft.ProjectOxford.Face
         /// Initializes a new instance of the <see cref="FaceServiceClient"/> class.
         /// </summary>
         /// <param name="subscriptionKey">The subscription key.</param>
-        public FaceServiceClient(string subscriptionKey)
+        public FaceServiceClient(string subscriptionKey) : this(subscriptionKey, DEFAULT_API_ROOT) { }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FaceServiceClient"/> class.
+        /// </summary>
+        /// <param name="subscriptionKey">The subscription key.</param>
+        /// <param name="apiRoot">Root URI for the service endpoint.</param>
+        public FaceServiceClient(string subscriptionKey, string apiRoot)
         {
             _subscriptionKey = subscriptionKey;
+            _apiRoot = apiRoot?.TrimEnd('/');
             _httpClient = new HttpClient();
             _httpClient.DefaultRequestHeaders.Add(SubscriptionKeyName, subscriptionKey);
         }
@@ -184,7 +196,7 @@ namespace Microsoft.ProjectOxford.Face
         /// <summary>
         /// Gets service endpoint address, overridable by subclasses, default to free subscription's endpoint.
         /// </summary>
-        protected virtual string ServiceHost => SERVICE_HOST;
+        protected virtual string ServiceHost => _apiRoot;
 
         /// <summary>
         /// Gets default request headers for all following http request
@@ -306,6 +318,28 @@ namespace Microsoft.ProjectOxford.Face
         }
 
         /// <summary>
+        /// Verifies whether the specified face belong to the specified person asynchronously.
+        /// </summary>
+        /// <param name="faceId">the face ID</param>
+        /// <param name="personGroupId">the person group ID</param>
+        /// <param name="personId">the person ID</param>
+        /// <returns>The verification result.</returns>
+        public async Task<VerifyResult> VerifyAsync(Guid faceId, string personGroupId, Guid personId)
+        {
+            var requestUrl = string.Format("{0}/{1}", ServiceHost, VerifyQuery);
+
+            return await this.SendRequestAsync<object, VerifyResult>(
+                HttpMethod.Post,
+                requestUrl,
+                new
+                {
+                    faceId = faceId,
+                    personGroupId = personGroupId,
+                    personId = personId
+                });
+        }
+
+        /// <summary>
         /// Identities the faces in a given person group asynchronously.
         /// </summary>
         /// <param name="personGroupId">The person group id.</param>
@@ -313,6 +347,19 @@ namespace Microsoft.ProjectOxford.Face
         /// <param name="maxNumOfCandidatesReturned">The maximum number of candidates returned for each face.</param>
         /// <returns>The identification results</returns>
         public async Task<IdentifyResult[]> IdentifyAsync(string personGroupId, Guid[] faceIds, int maxNumOfCandidatesReturned = 1)
+        {
+            return await IdentifyAsync(personGroupId, faceIds, 0.5f, maxNumOfCandidatesReturned);
+        }
+
+        /// <summary>
+        /// Identities the faces in a given person group asynchronously.
+        /// </summary>
+        /// <param name="personGroupId">The person group id.</param>
+        /// <param name="faceIds">The face ids.</param>
+        /// <param name="confidenceThreshold">user-specified confidence threshold.</param>
+        /// <param name="maxNumOfCandidatesReturned">The maximum number of candidates returned for each face.</param>
+        /// <returns>The identification results</returns>
+        public async Task<IdentifyResult[]> IdentifyAsync(string personGroupId, Guid[] faceIds, float confidenceThreshold, int maxNumOfCandidatesReturned = 1)
         {
             var requestUrl = string.Format("{0}/{1}", ServiceHost, IdentifyQuery);
 
@@ -323,7 +370,8 @@ namespace Microsoft.ProjectOxford.Face
                 {
                     personGroupId = personGroupId,
                     faceIds = faceIds,
-                    maxNumOfCandidatesReturned = maxNumOfCandidatesReturned
+                    maxNumOfCandidatesReturned = maxNumOfCandidatesReturned,
+                    confidenceThreshold = confidenceThreshold
                 });
         }
 
@@ -394,15 +442,29 @@ namespace Microsoft.ProjectOxford.Face
         }
 
         /// <summary>
-        /// Gets all person groups asynchronously.
+        /// Gets person groups asynchronously.
         /// </summary>
         /// <returns>Person group entity array.</returns>
+        [Obsolete("use ListPersonGroupsAsync instead")]
         public async Task<PersonGroup[]> GetPersonGroupsAsync()
         {
+            return await ListPersonGroupsAsync();
+        }
+
+        /// <summary>
+        /// Asynchronously list the top person groups whose Id is larger than "start".
+        /// </summary>
+        /// <param name="start">person group Id bar. List the person groups whose Id is larger than "start".</param>
+        /// <param name="top">the number of person groups to list.</param>
+        /// <returns>Person group entity array.</returns>
+        public async Task<PersonGroup[]> ListPersonGroupsAsync(string start = "", int top = 1000)
+        {
             var requestUrl = string.Format(
-                "{0}/{1}",
+                "{0}/{1}?start={2}&top={3}",
                 ServiceHost,
-                PersonGroupsQuery);
+                PersonGroupsQuery,
+                start,
+                top.ToString(CultureInfo.InvariantCulture));
 
             return await this.SendRequestAsync<object, PersonGroup[]>(HttpMethod.Get, requestUrl, null);
         }
@@ -501,20 +563,37 @@ namespace Microsoft.ProjectOxford.Face
         }
 
         /// <summary>
-        /// Gets all persons inside a person group asynchronously.
+        /// Gets persons inside a person group asynchronously.
         /// </summary>
         /// <param name="personGroupId">The person group id.</param>
         /// <returns>
         /// The person entity array.
         /// </returns>
+        [Obsolete("use ListPersonsAsync instead")]
         public async Task<Person[]> GetPersonsAsync(string personGroupId)
         {
+            return await ListPersonsAsync(personGroupId);
+        }
+
+        /// <summary>
+        /// List the top persons whose Id is larger than "start" inside a person group asynchronously.
+        /// </summary>
+        /// <param name="personGroupId">The person group id.</param>
+        /// <param name="start">Person Id bar. List the persons whose Id is larger than "start".</param>
+        /// <param name="top">The number of persons to list.</param>>
+        /// <returns>
+        /// The person entity array.
+        /// </returns>
+        public async Task<Person[]> ListPersonsAsync(string personGroupId, string start = "", int top = 1000)
+        {
             var requestUrl = string.Format(
-                "{0}/{1}/{2}/{3}",
+                "{0}/{1}/{2}/{3}?start={4}&top={5}",
                 ServiceHost,
                 PersonGroupsQuery,
                 personGroupId,
-                PersonsQuery);
+                PersonsQuery,
+                start,
+                top.ToString(CultureInfo.InvariantCulture));
 
             return await this.SendRequestAsync<object, Person[]>(HttpMethod.Get, requestUrl, null);
         }
@@ -619,6 +698,21 @@ namespace Microsoft.ProjectOxford.Face
         /// </returns>
         public async Task<SimilarFace[]> FindSimilarAsync(Guid faceId, Guid[] faceIds, int maxNumOfCandidatesReturned = 20)
         {
+            return await FindSimilarAsync(faceId, faceIds, FindSimilarMatchMode.matchPerson, maxNumOfCandidatesReturned);
+        }
+
+        /// <summary>
+        /// Finds the similar faces asynchronously.
+        /// </summary>
+        /// <param name="faceId">The face identifier.</param>
+        /// <param name="faceIds">The face identifiers.</param>
+        /// <param name="mode">Algorithm mode option, default as "matchPerson".</param>
+        /// <param name="maxNumOfCandidatesReturned">The max number of candidates returned.</param>
+        /// <returns>
+        /// The similar faces.
+        /// </returns>
+        public async Task<SimilarFace[]> FindSimilarAsync(Guid faceId, Guid[] faceIds, FindSimilarMatchMode mode, int maxNumOfCandidatesReturned = 20)
+        {
             var requestUrl = string.Format("{0}/{1}", ServiceHost, FindSimilarsQuery);
 
             return await this.SendRequestAsync<object, SimilarFace[]>(
@@ -628,7 +722,8 @@ namespace Microsoft.ProjectOxford.Face
                 {
                     faceId = faceId,
                     faceIds = faceIds,
-                    maxNumOfCandidatesReturned = maxNumOfCandidatesReturned
+                    maxNumOfCandidatesReturned = maxNumOfCandidatesReturned,
+                    mode = mode.ToString()
                 });
         }
 
@@ -643,6 +738,21 @@ namespace Microsoft.ProjectOxford.Face
         /// </returns>
         public async Task<SimilarPersistedFace[]> FindSimilarAsync(Guid faceId, string faceListId, int maxNumOfCandidatesReturned = 20)
         {
+            return await FindSimilarAsync(faceId, faceListId, FindSimilarMatchMode.matchPerson, maxNumOfCandidatesReturned);
+        }
+
+        /// <summary>
+        /// Finds the similar faces asynchronously.
+        /// </summary>
+        /// <param name="faceId">The face identifier.</param>
+        /// <param name="faceListId">The face list identifier.</param>
+        /// <param name="mode">Algorithm mode option, default as "matchPerson".</param>
+        /// <param name="maxNumOfCandidatesReturned">The max number of candidates returned.</param>
+        /// <returns>
+        /// The similar persisted faces.
+        /// </returns>
+        public async Task<SimilarPersistedFace[]> FindSimilarAsync(Guid faceId, string faceListId, FindSimilarMatchMode mode, int maxNumOfCandidatesReturned = 20)
+        {
             var requestUrl = string.Format("{0}/{1}", ServiceHost, FindSimilarsQuery);
 
             return await this.SendRequestAsync<object, SimilarPersistedFace[]>(
@@ -652,7 +762,8 @@ namespace Microsoft.ProjectOxford.Face
                 {
                     faceId = faceId,
                     faceListId = faceListId,
-                    maxNumOfCandidatesReturned = maxNumOfCandidatesReturned
+                    maxNumOfCandidatesReturned = maxNumOfCandidatesReturned,
+                    mode = mode.ToString()
                 });
         }
 
@@ -685,7 +796,7 @@ namespace Microsoft.ProjectOxford.Face
         /// <returns>
         /// Task object.
         /// </returns>
-        public async Task CreateFaceListAsync(string faceListId, string name, string userData)
+        public async Task CreateFaceListAsync(string faceListId, string name, string userData = null)
         {
             var requestUrl = string.Format("{0}/{1}/{2}", ServiceHost, FaceListsQuery, faceListId);
 

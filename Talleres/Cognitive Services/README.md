@@ -1,38 +1,40 @@
-# Ejercicio de Xamarin & Microsoft Cognitive Services
+# Ejercicio Xamarin & Microsoft Cognitive Services
 
 ## Requisitos
 
-Para poder realizar este ejercicio es necesario contar o crear una cuenta de Microsoft Cognitive Services puedes generarla directamente [aqui](https://www.microsoft.com/cognitive-services/)
+Para poder realizar este ejercicio es necesario contar o crear una cuenta de Microsoft Cognitive Services puedes generarla directamente [aquí](https://www.microsoft.com/cognitive-services/)
 
 ## Subscribirte a Cognitive Services
 
-En la pagina principal vamos a la seccion "My Account"
+En la pagina principal vamos a la sección "Free Trial" la cual nos permitirá crear implementaciones de prueba.
 
 <img src="Imagenes/1.png"/>
 
-Nota: Recibiremos un correo de confimarcion de nuestra cuenta.
-
-Una vez dentro de nuestro perfil podremos activar los servicios que requiramos dando click en el boton de añadir.
+En el siguiente menú seleccionaremos el servicio a activar en este caso "Face API".
 
 <img src="Imagenes/2.png"/>
 
-En la siguiente pantalla podremos activar tantos servicios como necesitemos ademas de poder cada uno de los detalles y costos.
+Lo siguiente será aceptar los términos de uso del servicio al igual seleccionar el país / región a la que pertenecemos. 
 
 <img src="Imagenes/3.png"/>
 
-Despues de aceptar los terminos regresamos a la pagina de perfil en el cual podremos encontrar las credenciales para acceder a la API que eligimos.
+Una vez aceptando los términos de uso, ingresaremos con nuestras credenciales ( Microsoft, Github, Facebook o LinkedIn) para poder usar el servicio (Es posible recibir un correo de confirmación de correo).
 
 <img src="Imagenes/4.png"/>
 
+A continuación podremos ver nuestras credenciales y el endpoint que deberemos de usar para poder utilizar nuestra prueba de Face API.
+
+<img src="Imagenes/5.png"/>
+
 ## Aplicacion Xamarin
 
-Primero añadiremos el codigo de implementacion el cual puedes encontrar [aqui](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/ClientLibrary)
+Primero añadiremos el código de implementación el cual puedes encontrar [aquí](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/ClientLibrary)
 
 ### Paso 1 Inicializar el cliente y crear un id de grupo
 
 ```
 
-FaceServiceClient = new FaceServiceClient("yourToken");
+FaceServiceClient = new FaceServiceClient("yourToken","yourapiurl");
 _personGroupId = Guid.NewGuid().ToString();
 
 ```

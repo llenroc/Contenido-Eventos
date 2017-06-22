@@ -31,35 +31,55 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
-    /// The class for similar face.
+    /// Definition of exposure level
     /// </summary>
-    public class SimilarFace
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum ExposureLevel
+    {
+        /// <summary>
+        /// Indicating face image is in under exposure
+        /// </summary>
+        UnderExposure,
+
+        /// <summary>
+        /// Indicating face image is in good exposure
+        /// </summary>
+        GoodExposure,
+
+        /// <summary>
+        /// Indicating face image is in over exposure
+        /// </summary>
+        OverExposure
+    }
+
+    /// <summary>
+    /// Face Exposure class contains exposure information
+    /// </summary>
+    public class Exposure
     {
         #region Properties
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// Indicating exposure level of face image
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        public ExposureLevel ExposureLevel
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Exposure value is in range [0, 1]. Larger value means the face image is more brighter.
+        /// [0, 0.25) is under exposure.
+        /// [0.25, 0.75) is good exposure.
+        /// [0.75, 1] is over exposure.
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
-        public double Confidence
+        public double Value
         {
             get; set;
         }

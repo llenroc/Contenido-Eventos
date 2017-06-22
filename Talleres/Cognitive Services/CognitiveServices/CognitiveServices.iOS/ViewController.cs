@@ -33,7 +33,10 @@ namespace CognitiveServices.iOS
 					stringData += $"Moustache: {face.FaceAttributes.FacialHair.Moustache}" + Environment.NewLine;
 					stringData += $"Sideburns: {face.FaceAttributes.FacialHair.Sideburns}" + Environment.NewLine;
 					stringData += $"Smile: {face.FaceAttributes.Smile}";
-					new UIAlertView("Microsoft Cognitive Services", stringData, null, "Ok").Show();
+
+					var alert = UIAlertController.Create("Microsoft Cognitive Services", stringData, UIAlertControllerStyle.Alert);
+                    alert.AddAction(UIAlertAction.Create("Close", UIAlertActionStyle.Cancel, null));
+                    PresentViewController(alert, true, null);
 				}
 				catch
 				{

@@ -38,8 +38,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Contract\Accessory.cs" />
+    <Compile Include="Contract\Blur.cs" />
     <Compile Include="Contract\ClientError.cs" />
     <Compile Include="Contract\AddPersistedFaceResult.cs" />
+    <Compile Include="Contract\Exposure.cs" />
     <Compile Include="Contract\Face.cs" />
     <Compile Include="Contract\FaceAttributes.cs" />
     <Compile Include="Contract\FaceList.cs" />
@@ -47,11 +50,15 @@
     <Compile Include="Contract\FaceMetadata.cs" />
     <Compile Include="Contract\FacialHair.cs" />
     <Compile Include="Contract\GlassesTypes.cs" />
+    <Compile Include="Contract\Hair.cs" />
     <Compile Include="Contract\HeadPose.cs" />
     <Compile Include="Contract\FaceRectangle.cs" />
     <Compile Include="Contract\FaceLandmarks.cs" />
     <Compile Include="Contract\GroupResult.cs" />
     <Compile Include="Contract\IdentifyResult.cs" />
+    <Compile Include="Contract\Makeup.cs" />
+    <Compile Include="Contract\Noise.cs" />
+    <Compile Include="Contract\Occlusion.cs" />
     <Compile Include="Contract\Person.cs" />
     <Compile Include="Contract\Candidate.cs" />
     <Compile Include="Contract\CreatePersonResult.cs" />
@@ -68,12 +75,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-    </Reference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ProjectOxford.Common">
+      <HintPath>..\packages\Microsoft.ProjectOxford.Common.1.0.324\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

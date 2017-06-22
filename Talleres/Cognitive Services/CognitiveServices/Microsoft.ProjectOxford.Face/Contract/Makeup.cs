@@ -31,35 +31,27 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-using System;
-
 namespace Microsoft.ProjectOxford.Face.Contract
 {
     /// <summary>
-    /// The class for similar face.
+    /// Face Makeup class contains makeup information
     /// </summary>
-    public class SimilarFace
+    public class Makeup
     {
         #region Properties
 
         /// <summary>
-        /// Gets or sets the face identifier.
+        /// Indicating whether eye has makeup or not
         /// </summary>
-        /// <value>
-        /// The face identifier.
-        /// </value>
-        public Guid FaceId
+        public bool EyeMakeup
         {
             get; set;
         }
 
         /// <summary>
-        /// Gets or sets the confidence.
+        /// Indicating whether lip has makeup or not
         /// </summary>
-        /// <value>
-        /// The confidence.
-        /// </value>
-        public double Confidence
+        public bool LipMakeup
         {
             get; set;
         }
