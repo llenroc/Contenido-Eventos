@@ -67,6 +67,7 @@ namespace App1
                 System.Threading.Thread.Sleep(2000);
                 Toast.MakeText(this, "Captura hecha", ToastLength.Short).Show();
             }
+            view.DestroyDrawingCache();
         }
 
         static CloudBlobContainer GetContainer()
